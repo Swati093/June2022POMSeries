@@ -16,6 +16,7 @@ public class LoginPage {
 	private By lgnBtn=By.xpath("//input[@value='Login']");
 	private By forgotPass=By.linkText("Forgotten Password");
 	private By register=By.linkText("Register");
+	private By dummy=By.linkText("demmy");
 	
 	//page const..
 	public LoginPage(WebDriver driver) {
