@@ -11,6 +11,7 @@ public class f1 {
 	public void login() {
 		String un = "Swati";
 		String pwd = "12345";
+		String role = "admin";
 		System.out.println("login credentials added");
 	}
 
