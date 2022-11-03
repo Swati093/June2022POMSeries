@@ -11,5 +11,9 @@ public class LoginNewFeature {
 	public void clickNewBtnBy() {
 		System.out.println("clicking btn"+btn);
 	}
+	
+	public void f1() {
+		System.out.println("f1");
+	}
 
 }
