@@ -7,5 +7,10 @@ public class f1 {
 		int i=10;
 		int j=20;
 	}
+	
+	public void login() {
+		String un = "Swati";
+		String pwd = "12345";
+	}
 
 }
