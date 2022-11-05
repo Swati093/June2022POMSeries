@@ -8,7 +8,7 @@ public class AppConstants {
 	public static final int DEFAULT_WAIT_TIME =5;
 	public static final int DEFAULT_LARGE_WAIT_TIME =10;
 	
-	public static final String LOG_PAGE_TITLE="Account Login";
+	public static final String LOG_PAGE_TITLE="Account Login11";
 	public static final String ACC_PAGE_TITLE="My Account";
 	
 	public static final String LOG_PAGE_URL_PARAM="account/login";
