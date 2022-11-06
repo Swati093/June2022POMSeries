@@ -37,8 +37,9 @@ public class DriverFactory {
 		highlight = prop.getProperty("highlight");
 		op = new OptionsManager(prop);
 
-		String browserName = prop.getProperty("browser").toLowerCase();
-		// browserName=browserName.toLowerCase();
+		//String browserName = prop.getProperty("browser").toLowerCase();
+		String browserName= System.getProperty("browser");
+		browserName=browserName.toLowerCase();
 		System.out.println("Browser name is:" + browserName);
 		LOG.info("Browser name is:"+browserName);
 		if (browserName.equals("chrome")) {
